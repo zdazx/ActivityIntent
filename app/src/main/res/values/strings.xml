@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActivityIntent</string>
+    <string name="practice">Activity Practice</string>
+    <string name="select_contact">选择联系人</string>
+</resources>
