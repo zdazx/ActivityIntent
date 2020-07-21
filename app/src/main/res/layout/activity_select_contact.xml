@@ -10,7 +10,15 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="100dp"
         android:layout_marginTop="50dp"
-        android:text="@string/select_contact"/>
+        android:text="@string/select_contact" />
+
+    <Button
+        android:id="@+id/viewLifeCircle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/life_circle" />
 
     <TextView
         android:id="@+id/contact_info"

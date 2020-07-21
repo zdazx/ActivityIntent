@@ -22,6 +22,13 @@ public class SelectContactActivity extends AppCompatActivity {
         setContentView(R.layout.activity_select_contact);
         contactTextView = findViewById(R.id.contact_info);
         Button select = findViewById(R.id.select_contact);
+        Button lifeCircle = findViewById(R.id.viewLifeCircle);
+        lifeCircle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openLifeCircleActivity();
+            }
+        });
         select.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -30,6 +37,11 @@ public class SelectContactActivity extends AppCompatActivity {
                 SelectContactActivity.this.startActivityForResult(intent, 1);
             }
         });
+    }
+
+    private void openLifeCircleActivity() {
+        Intent intent = new Intent(this, LifeCircleActivity.class);
+        startActivity(intent);
     }
 
     @Override

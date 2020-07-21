@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SelectContactActivity" />
+        <activity android:name=".LifeCircleActivity" />
     </application>
 
 </manifest>
